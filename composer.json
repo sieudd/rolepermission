@@ -1,0 +1,30 @@
+{
+    "name": "sieudd/rolepermission",
+    "authors": [
+        {
+            "name": "sieudd",
+            "email": "sieudd@greenglobal.vn"
+        }
+    ],
+    "description": "A package role and permission",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "league/fractal": "^0.19.2",
+        "prettus/l5-repository": "^2.6",
+        "spatie/laravel-permission": "^3.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sieudd\\Rolepermission\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sieudd\\Rolepermission\\Providers\\RolePermissionServiceProvider"
+            ]
+        }
+    }
+}
